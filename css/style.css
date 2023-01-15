@@ -2851,7 +2851,7 @@ ul {
 .shorten-form {
   border-radius: 1.6rem;
   padding: 2.5rem 1.6rem 1.6rem 1.6rem;
-  background-image: url("/images/bg-shorten-mobile.svg");
+  background-image: url("../../images/bg-shorten-mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -2862,7 +2862,7 @@ ul {
   margin-top: -120px; }
   @media (min-width: 992px) {
     .shorten-form {
-      background-image: url("/images/bg-shorten-desktop.svg");
+      background-image: url("../../images/bg-shorten-desktop.svg");
       background-size: cover;
       flex-direction: row;
       padding: 4rem; } }
@@ -3051,7 +3051,7 @@ ul {
 
 .boost {
   padding: 6rem 1.6rem;
-  background-image: url("/images/bg-boost-mobile.svg");
+  background-image: url("../../images/bg-boost-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -3059,7 +3059,7 @@ ul {
   text-align: center; }
   @media (min-width: 992px) {
     .boost {
-      background-image: url("/images/bg-boost-desktop.svg"); } }
+      background-image: url("../../images/bg-boost-desktop.svg"); } }
   .boost h2 {
     font-size: 2rem;
     font-weight: 700;
