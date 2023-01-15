@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/zorluozan/url-shortening-api
+- Live Site URL: https://zorluozan.github.io/url-shortening-api/
 
 ## My process
 
@@ -41,4 +41,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@zorluozan]
+- Frontend Mentor - @zorluozan
