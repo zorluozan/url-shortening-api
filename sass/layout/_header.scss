@@ -1,0 +1,129 @@
+.mobile-menu {
+  &.active {
+    .mobile-menu__collapse {
+      visibility: visible;
+      opacity: 1;
+      height: auto;
+    }
+  }
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.4rem 2rem 0 2rem;
+  }
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    span {
+      width: 1.6rem;
+      height: 2px;
+      background-color: $color-grayish-violet;
+
+      &:not(:last-child) {
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  &__collapse {
+    background-color: $color-dark-violet;
+    border-radius: 0.8rem;
+    padding: 2rem;
+    margin: 2rem auto 0 auto;
+    width: 90%;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: opacity 1s;
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-bottom: 1px solid $color-grayish-violet;
+    }
+
+    &-item {
+      margin-bottom: 2.5rem;
+
+      a {
+        font-size: $default-font-size;
+        font-weight: 500;
+        color: $color-white;
+      }
+    }
+  }
+
+  &__authenticate-area {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .btn-sign-up {
+      width: 100%;
+      padding: 1rem 0;
+    }
+  }
+
+  &__authenticate-link {
+    font-size: $default-font-size;
+    font-weight: 500;
+    color: $color-white;
+    margin-bottom: 2rem;
+  }
+}
+
+// DESKTOP MENU
+.desktop-menu {
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 10rem 0 10rem;
+  }
+
+  &__header {
+    display: flex;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+    a {
+      font-size: 2rem;
+      font-weight: 700;
+      color: $color-grayish-violet;
+
+      &:hover {
+        color: $color-vary-dark-blue;
+      }
+    }
+  }
+
+  &__authenticate-area {
+    display: flex;
+    align-items: center;
+
+    .btn-sign-up {
+      padding: 1rem 2rem;
+      font-weight: 700;
+    }
+  }
+
+  &__authenticate-link {
+    font-size: $default-font-size;
+    font-weight: 700;
+    color: $color-grayish-violet;
+    margin-right: 3rem;
+  }
+}
